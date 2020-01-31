@@ -8,7 +8,7 @@ import * as moment from 'moment';
 export class SimpleDatepickerComponent implements OnInit {
 
   dateModel: moment.Moment = null;
-  options: any = {format: 'YYYY/MM/DD HH:mm', showClear: true};
+  options: any = {format: 'YYYY/MM/DD HH:mm', locale:'ja-JP', showClear: true};
 
   constructor() { }
 
